@@ -66,7 +66,7 @@ const HomeSection3 = () => {
 
 const BgDiv = styled.div`
 	width: 100%;
-	min-height: 100vh;
+	/* min-height: 100vh; */
 	background-color: #fbf2ed;
 `;
 
@@ -79,6 +79,9 @@ const Bg2Div = styled.div`
 	align-items: center;
 	color: #fbf2ed;
 	position: relative;
+	@media (max-width: 568px) {
+		min-height: auto;
+	}
 	.title {
 		font-family: 'Montserrat', sans-serif;
 		font-size: 2rem;
@@ -106,13 +109,14 @@ const Cont = styled(motion.div)`
 	z-index: 10;
 	@media (max-width: 568px) {
 		flex-direction: column;
+		height: auto;
 	}
 	div {
 		width: 26%;
 		height: 70%;
 		@media (max-width: 568px) {
-			width: 100%;
-			height: 100%;
+			width: auto;
+			height: auto;
 		}
 	}
 	div:nth-of-type(2) {
@@ -130,8 +134,8 @@ const Cont = styled(motion.div)`
 		z-index: 10;
 		@media (max-width: 568px) {
 			font-size: 1rem;
-			line-height: 1.5rem;
-			margin: 1rem 0rem;
+			line-height: 1rem;
+			margin: 0rem 0rem 2rem 0rem;
 		}
 	}
 `;

@@ -31,7 +31,7 @@ const Btn = styled(motion.div)`
 	box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.3);
 	transition: all 0.2s ease;
 	@media (max-width: 800px) {
-		margin-top: 12rem;
+		margin-top: 0rem;
 	}
 	&:hover {
 		background: #646158;

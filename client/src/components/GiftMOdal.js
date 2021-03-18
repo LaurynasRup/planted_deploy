@@ -93,13 +93,12 @@ const GiftModal = ({ basket, setBasket, modalOpen, setModalOpen }) => {
 						</button>
 					</ModalRight>
 				</ModalTop>
-				<div>
-					<Text>
-						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae
-						rerum quam, ex in cumque at doloribus dolor voluptatem nulla iste
-						asperiores nihil quidem quia velit!
-					</Text>
-				</div>
+
+				<Text>
+					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae
+					rerum quam, ex in cumque at doloribus dolor voluptatem nulla iste
+					asperiores nihil quidem quia velit!
+				</Text>
 			</StyledModalInner>
 		</OuterModal>
 	);
@@ -126,7 +125,7 @@ const StyledModalInner = styled.div`
 	box-shadow: 0px 3px 10px 2px rgba(0, 0, 0, 0.7);
 	@media (max-width: 568px) {
 		width: 80%;
-		height: 90%;
+		height: 90vh;
 		overflow: scroll;
 		padding: 2rem;
 	}
@@ -137,6 +136,7 @@ const ModalTop = styled.div`
 	height: 40vh;
 	@media (max-width: 568px) {
 		flex-direction: column;
+		height: auto;
 	}
 	img {
 		width: 50%;
@@ -245,7 +245,7 @@ const Text = styled.p`
 	font-weight: lighter;
 	padding-top: 2rem;
 	@media (max-width: 568px) {
-		margin-top: 7rem;
+		padding-top: 0rem;
 	}
 `;
 

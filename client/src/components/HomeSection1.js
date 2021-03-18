@@ -32,7 +32,7 @@ const HomeSection1 = () => {
 					<p>for any occasion...</p>
 				</motion.div>
 			</motion.div>
-			<Link to="/plants">
+			<Link to="/plants" className="btn-link">
 				<Button>See our plants</Button>
 			</Link>
 		</Home1>
@@ -46,27 +46,44 @@ const Home1 = styled.div`
 	min-height: 100vh;
 	background-image: url(${BG});
 	color: #eee3db;
+	position: relative;
 	@media (max-width: 800px) {
 		padding: 2rem;
 		display: flex;
 		flex-direction: column;
-		align-items: center;
+		/* align-items: center; */
+		justify-content: space-between;
 	}
 
 	.head {
 		font-size: 3.5rem;
 		margin-top: 8rem;
 		line-height: 3.8rem;
+		@media (max-width: 800px) {
+			font-size: 2.5rem;
+			padding-top: 2rem;
+		}
 		.home {
 			color: #6a6350;
+			@media (max-width: 800px) {
+				font-size: 2.5rem;
+			}
 		}
 	}
 	.subHead {
 		font-size: 2rem;
 		margin-top: 2rem;
 		font-weight: lighter;
+		@media (max-width: 800px) {
+			font-size: 1.5rem;
+		}
 		.you {
 			color: #6a6350;
+		}
+	}
+	.btn-link {
+		@media (max-width: 800px) {
+			align-self: center;
 		}
 	}
 `;
