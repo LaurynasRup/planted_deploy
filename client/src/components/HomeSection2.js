@@ -82,7 +82,7 @@ const StyledEl = styled.div`
 	p {
 		margin-bottom: 2rem;
 		@media (max-width: 568px) {
-			font-size: 1rem;
+			font-size: 0.9rem;
 		}
 	}
 
