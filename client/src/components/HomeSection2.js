@@ -47,7 +47,7 @@ const Home2 = styled.div`
 	flex-direction: column;
 	align-items: center;
 	@media (max-width: 568px) {
-		padding: 1rem 2rem;
+		padding: 1rem;
 	}
 	.head {
 		font-size: 2rem;
@@ -61,7 +61,7 @@ const Home2 = styled.div`
 `;
 
 const StyledCont = styled(motion.div)`
-	width: 90%;
+	width: 100%;
 	display: flex;
 	justify-content: space-between;
 	@media (max-width: 568px) {
