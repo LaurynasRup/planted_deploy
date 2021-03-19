@@ -55,6 +55,7 @@ const Home2 = styled.div`
 		margin-bottom: 4rem;
 		@media (max-width: 568px) {
 			font-size: 1.5rem;
+			margin-bottom: 3rem;
 		}
 	}
 `;
@@ -76,7 +77,7 @@ const StyledEl = styled.div`
 	flex-direction: column;
 	align-items: center;
 	@media (max-width: 568px) {
-		width: 100%;
+		width: 100px;
 	}
 
 	p {

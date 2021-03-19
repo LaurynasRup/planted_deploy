@@ -239,13 +239,14 @@ const DetailsWrapper = styled.div`
 		justify-content: center;
 		align-items: center;
 		position: relative;
+
 		@media (max-width: 568px) {
 			justify-content: flex-start;
 			margin-left: -5px;
 		}
 	}
 	.close {
-		position: absolute;
+		/* position: absolute; */
 		top: 0;
 		right: 10px;
 		height: 100%;
