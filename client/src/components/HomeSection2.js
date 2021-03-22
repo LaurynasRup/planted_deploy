@@ -18,7 +18,7 @@ const HomeSection2 = () => {
 		<Home2>
 			<p className="head">Why choose Planted?</p>
 			<StyledCont ref={element} variants={homeScroll} animate={controls}>
-				<Home2Element text={'Extensive selection of'} img={aloe} />
+				<Home2Element text={'Extensive selection'} img={aloe} />
 				<Home2Element text={'Ethically sourced plants'} img={quality} />
 				<Home2Element text={'Delivered to your doorstep'} img={box} />
 			</StyledCont>
