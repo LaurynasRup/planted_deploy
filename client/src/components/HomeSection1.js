@@ -44,7 +44,8 @@ const Home1 = styled.div`
 	padding: 5rem;
 	width: 100%;
 	min-height: 100vh;
-	background-image: url(${BG});
+	background: url(${BG}) top left no-repeat;
+	background-size: cover;
 	color: #eee3db;
 	position: relative;
 	@media (max-width: 800px) {
